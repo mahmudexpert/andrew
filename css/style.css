@@ -390,7 +390,27 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 .project_content{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
+#more {display: none;}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+.skill_info p span {
+  font-weight: bold;
+}
+.project_content p{
+  margin-top: 15px;
+}
 
+
+.more-text {
+  display: none;
+}
+
+.read-less {
+  display: none;
+}
 
 
 
